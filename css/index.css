@@ -132,13 +132,44 @@ table {
 html {
   font-size: 62.5%;
 }
-body {
+body,
+h1 {
   max-width: 1200px;
   font-family: 'Rock Salt', cursive;
 }
 p {
   font-family: 'Neucha', cursive;
 }
-header {
-  width: 100%;
+nav {
+  border: 1px solid purple;
+  z-index: 2;
+}
+div {
+  margin: 5% 0;
+  display: flex;
+  justify-content: center;
+}
+div h1 {
+  font-size: 8rem;
+  font-weight: bold;
+  color: #173947;
+  background: #4FB5C8;
+  border-radius: 5px;
+}
+div #bg {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+}
+div #bg img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%;
 }
