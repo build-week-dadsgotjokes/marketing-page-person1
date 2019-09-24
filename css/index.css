@@ -172,7 +172,7 @@ html h1 {
   color: #173947;
 }
 div {
-  margin: 2.5% 0;
+  margin: 2.5% 0 2% 0;
   display: flex;
   justify-content: center;
 }
