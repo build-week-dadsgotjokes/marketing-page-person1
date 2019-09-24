@@ -132,20 +132,47 @@ table {
 html {
   font-size: 62.5%;
 }
-body,
-h1 {
+html body {
   max-width: 1200px;
-  font-family: 'Rock Salt', cursive;
-}
-p {
   font-family: 'Neucha', cursive;
 }
-nav {
-  border: 1px solid purple;
-  z-index: 2;
+html h1 {
+  font-family: 'Rock Salt', cursive;
+}
+.top-nav,
+.about-nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+.top-nav a,
+.about-nav a {
+  width: 15%;
+  padding: 2%;
+  font-size: 3rem;
+  text-align: center;
+  align-self: center;
+  border: 8px solid #173947;
+  border-radius: 8%;
+  color: #173947;
+  text-decoration: none;
+  background: #E56166;
+}
+.top-nav p,
+.about-nav p {
+  width: 35%;
+  padding: 2%;
+  font-size: 6rem;
+}
+.bottom-nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+.bottom-nav a {
+  font-size: 2rem;
+  color: #173947;
 }
 div {
-  margin: 5% 0;
+  margin: 2.5% 0;
   display: flex;
   justify-content: center;
 }

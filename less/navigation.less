@@ -1,4 +1,32 @@
-nav {
-    border: 1px solid purple;
-    z-index: 2;
+.top-nav, .about-nav {
+    // border: 1px solid purple;
+    display: flex;
+    justify-content: space-evenly;
+    a {
+        width: 15%;
+        padding: 2%;
+        font-size: 3rem;
+        text-align: center;
+        align-self: center;
+        border: 8px solid @font-color;
+        border-radius: 8%;
+        color: @font-color;
+        text-decoration: none;
+        background: @accent-color;
+    }
+    p {
+        width: 35%;
+        padding: 2%;
+        font-size: 6rem;
+
+    }
+}
+
+.bottom-nav {
+    display: flex;
+    justify-content: space-evenly;
+    a {
+        font-size: 2rem;
+        color: @font-color;
+    }
 }
