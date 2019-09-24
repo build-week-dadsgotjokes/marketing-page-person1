@@ -183,6 +183,10 @@ div h1 {
   background: #4FB5C8;
   border-radius: 5px;
 }
+div h2 {
+  font-size: 4rem;
+  color: #173947;
+}
 div #bg {
   position: fixed;
   top: -50%;
