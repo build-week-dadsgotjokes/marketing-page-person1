@@ -1,35 +1,62 @@
-div {
+.container {
+    @media @mobile {
+        width: 100%;
+    }
+    // body {
+    //     background: linear-gradient(
+    //     rgba(0, 0, 0, 0,5),
+    //     rgba(0, 0, 0, 0.5)
+    //     ),     
+    //     url('../img/edited-flamenco-uploading.png') bottom center no-repeat;
+    //     background-size: cover;
+    // }
+    div {
     margin: 2.5% 0 2% 0;
     display: flex;
     justify-content: center;
     // border: 1px solid tomato;
-    h1 {
+        h1 {
         font-size: 8rem;
         font-weight: bold;
         color: @font-color;
         background: @bg-color;
         border-radius: 5px;
-    }
-    h2 {
+        }
+        h2 {
         font-size: 4rem;
         color: @font-color;
-    }
-    #bg {
-        position: fixed; 
-        top: -50%; 
-        left: -50%; 
-        width: 200%; 
-        height: 200%;
-    }
-    #bg img {
-        position: absolute; 
-        top: 0; 
-        left: 0; 
-        right: 0; 
-        bottom: 0; 
-        margin: auto; 
-        min-width: 50%;
-        min-height: 50%;
+        }
+        #bg {
+            width: 100%;
+            img {
+                width: 100%;
+                display: block;
+                background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5));
+            }
+        }
+    // #bg {
+    // position: fixed; 
+    // top: -50%; 
+    // left: -50%; 
+    // width: 200%; 
+    // height: 200%;
+    // @media @mobile {
+
+    // }
+    //     img {
+    //         position: absolute; 
+    //         top: 0; 
+    //         left: 0; 
+    //         right: 0; 
+    //         bottom: 0; 
+    //         margin: auto; 
+    //         min-width: 50%;
+    //         min-height: 50%;
+    //         @media @mobile {
+    //             justify-self: center;
+    //         }
+    //     }
+    // }
     }
 }
 
