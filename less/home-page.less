@@ -1,9 +1,32 @@
 body {
     background: 
         linear-gradient(
-            rgba(255,255,255, 0.5),
-            rgba(255,255,255, 0.5)
+            rgba(255,255,255, 0.75),
+            rgba(255,255,255, 0.75)
         ),
         url(../img/small-edited-flamenco-uploading.png) top no-repeat;
         background-size: cover;
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        section {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            img {
+                width: 30%;
+                
+            }
+            .trophy {
+                width: 25%;
+            }
+            .text {
+            width: 45%;
+            padding: 5%;
+            color: @font-color;
+            font-size: 3rem;
+            }
+        }
+    }
 }
