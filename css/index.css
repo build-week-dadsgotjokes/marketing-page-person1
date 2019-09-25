@@ -1,0 +1,199 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+	v2.0 | 20110126
+	License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html body {
+  font-family: 'Neucha', cursive;
+}
+html h1 {
+  font-family: 'Rock Salt', cursive;
+}
+header {
+  width: 100%;
+  height: 20%;
+  margin: 2.5% 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  border: 3px solid tomato;
+}
+header h1 {
+  font-size: 8rem;
+  font-weight: bold;
+  text-align: center;
+  color: #173947;
+  background: #4FB5C8;
+  border-radius: 5px;
+}
+header h2 {
+  font-size: 4rem;
+  color: #173947;
+}
+header nav {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  justify-content: space-evenly;
+  border: 3px solid yellow;
+}
+header nav a {
+  width: 20%;
+  padding: 2%;
+  font-size: 3rem;
+  text-align: center;
+  align-self: center;
+  border: 8px solid #173947;
+  border-radius: 8%;
+  color: #173947;
+  text-decoration: none;
+  background: #E56166;
+}
+header p {
+  width: 35%;
+  padding: 2%;
+  font-size: 6rem;
+}
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  border: 3px solid rebeccapurple;
+}
+footer a {
+  font-size: 2rem;
+  color: #173947;
+}
+body {
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../img/small-edited-flamenco-uploading.png) top no-repeat;
+  background-size: cover;
+}
