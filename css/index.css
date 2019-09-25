@@ -202,11 +202,6 @@ html h1 {
   font-size: 4rem;
   color: #173947;
 }
-.container div #bg {
-  width: 100%;
-}
-.container div #bg img {
-  width: 100%;
-  display: block;
-  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+.container #bg {
+  background-image: url(../img/small-edited-flamenco-uploading.png);
 }
