@@ -201,11 +201,11 @@ body main {
 body main section {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 50vh;
-  border: 3px solid goldenrod;
 }
 body main section img {
   width: 55%;
@@ -221,6 +221,29 @@ body main section .text {
   font-size: 2.8rem;
 }
 body main section .text a {
+  text-decoration: none;
+  color: #173947;
+}
+#about-main {
+  display: flex;
+  flex-direction: column;
+  flex-flow: wrap;
+  border: 2px solid orange;
+}
+#about-main .about-section {
+  width: 25%;
+  border: 2px solid brown;
+}
+#about-main .people {
+  width: 35%;
+}
+#about-main .people-text {
+  width: 35%;
+}
+#about-main .people-text p {
+  font-size: 2rem;
+}
+#about-main .people-text a {
   text-decoration: none;
   color: #173947;
 }
