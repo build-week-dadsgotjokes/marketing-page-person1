@@ -147,6 +147,12 @@ header {
   flex-wrap: nowrap;
   justify-content: space-evenly;
 }
+@media (max-width: 500px) {
+  header {
+    height: 50%;
+    margin-top: 5%;
+  }
+}
 header h1 {
   margin: 0 0 2% 0;
   font-size: 8rem;
@@ -155,6 +161,11 @@ header h1 {
   color: #173947;
   background: #4FB5C8;
   border-radius: 5px;
+}
+@media (max-width: 500px) {
+  header h1 {
+    margin: 1% 1% 8% 1%;
+  }
 }
 header h2 {
   width: 35%;
@@ -168,6 +179,11 @@ header nav {
   display: flex;
   justify-content: space-evenly;
 }
+@media (max-width: 500px) {
+  header nav {
+    flex-direction: column;
+  }
+}
 header nav a {
   width: 20%;
   padding: 2%;
@@ -179,6 +195,31 @@ header nav a {
   color: #173947;
   text-decoration: none;
   background: #E56166;
+}
+@media (max-width: 500px) {
+  header nav a {
+    width: 40%;
+    padding: 1%;
+    margin: 1%;
+  }
+}
+@media (max-width: 500px) {
+  .about-nav {
+    margin-top: 17%;
+  }
+}
+@media (max-width: 500px) {
+  .about-nav a {
+    width: 40%;
+  }
+}
+@media (max-width: 500px) {
+  .about-nav h2 {
+    order: 3;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+  }
 }
 footer {
   display: flex;
@@ -198,6 +239,12 @@ body main {
   justify-content: center;
   width: 100%;
 }
+@media (max-width: 500px) {
+  body main {
+    margin-top: 5%;
+    flex-direction: column;
+  }
+}
 body main section {
   display: flex;
   flex-direction: row;
@@ -206,6 +253,12 @@ body main section {
   align-items: center;
   width: 100%;
   height: 50vh;
+}
+@media (max-width: 500px) {
+  body main section {
+    width: 98%;
+    margin: 10% 1%;
+  }
 }
 body main section img {
   width: 55%;
@@ -228,6 +281,12 @@ body main section .text a {
   display: flex;
   flex-direction: column;
   flex-flow: wrap;
+}
+@media (max-width: 500px) {
+  #about-main {
+    margin-top: 5%;
+    flex-direction: column;
+  }
 }
 #about-main .about-section {
   width: 25%;

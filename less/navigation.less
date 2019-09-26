@@ -7,6 +7,10 @@ header {
     flex-wrap: nowrap;
     justify-content: space-evenly;
     // border: 3px solid tomato;
+    @media @mobile {
+        height: 50%;
+        margin-top: 5%;
+    }
     h1 {
         margin: 0 0 2% 0;
         font-size: 8rem;
@@ -15,6 +19,9 @@ header {
         color: @font-color;
         background: @bg-color;
         border-radius: 5px;
+        @media @mobile {
+            margin: 1% 1% 8% 1%;
+        }
     }
     h2 {
         width: 35%;
@@ -27,6 +34,9 @@ header {
         height: 20vh;
         display: flex;
         justify-content: space-evenly;
+        @media @mobile {
+            flex-direction: column;
+        }
         // border: 3px dashed @font-color;
     a {
             width: 20%;
@@ -39,6 +49,31 @@ header {
             color: @font-color;
             text-decoration: none;
             background: @accent-color;
+            @media @mobile {
+                width: 40%;
+                padding: 1%;
+                margin: 1%;
+            }
         }
+    }
+}
+
+.about-nav {
+    @media @mobile {
+        margin-top: 17%;
+    }
+    a {
+    @media @mobile {
+        width: 40%;
+    }
+    }
+    h2 {
+    @media @mobile {
+        order: 3;
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        
+    }
     }
 }
