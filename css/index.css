@@ -313,11 +313,7 @@ body main section .text a {
 }
 #about-main .about-section .people-text {
   width: 45%;
-}
-@media (max-width: 500px) {
-  #about-main .about-section .people-text {
-    margin-left: 2%;
-  }
+  margin-left: 2%;
 }
 #about-main .about-section .people-text h3 {
   font-family: 'Rock Salt', cursive;
