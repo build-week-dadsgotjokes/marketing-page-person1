@@ -228,22 +228,31 @@ body main section .text a {
   display: flex;
   flex-direction: column;
   flex-flow: wrap;
-  border: 2px solid orange;
 }
 #about-main .about-section {
   width: 25%;
-  border: 2px solid brown;
+  border-radius: 50%;
+  border: 2px solid #E56166;
 }
-#about-main .people {
-  width: 35%;
+#about-main .about-section .people {
+  width: 45%;
+  height: 40%;
+  border-radius: 50%;
+  border: 2px solid #4FB5C8;
 }
-#about-main .people-text {
-  width: 35%;
+#about-main .about-section .people-text {
+  width: 45%;
 }
-#about-main .people-text p {
+#about-main .about-section .people-text h3 {
+  font-family: 'Rock Salt', cursive;
   font-size: 2rem;
+  line-height: 1.5;
 }
-#about-main .people-text a {
+#about-main .about-section .people-text p {
+  font-size: 1.8rem;
+}
+#about-main .about-section .people-text a {
+  font-size: 1.5rem;
   text-decoration: none;
-  color: #173947;
+  color: #4FB5C8;
 }

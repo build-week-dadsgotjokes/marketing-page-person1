@@ -46,23 +46,34 @@ body {
         display: flex;
         flex-direction: column;
         flex-flow: wrap;
-        border: 2px solid orange;
+        // border: 2px solid orange;
         .about-section {
             width: 25%;
+            border-radius: 50%;
             // flex-direction: column;
-            border: 2px solid brown;
-            }
+            border: 2px solid @accent-color;
             .people {
-                width: 35%;
+                width: 45%;
+                height: 40%;
+                border-radius: 50%;
+                border: 2px solid @bg-color;
             }
             .people-text {
-                width: 35%;
-                p {
+                width: 45%;
+                h3 {
+                    font-family: 'Rock Salt', cursive;
                     font-size: 2rem;
+                    line-height: 1.5;
+
+                }
+                p {
+                    font-size: 1.8rem;
                 }
                 a {
+                    font-size: 1.5rem;
                     text-decoration: none;
-                    color: @font-color;
+                    color: @bg-color;
                 }
             }
+        }
     }
