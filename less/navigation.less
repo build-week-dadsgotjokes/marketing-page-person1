@@ -1,0 +1,81 @@
+header {
+    width: 100%;
+    height: 20%;
+    margin: 2.5% 0 1% 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    // border: 3px solid tomato;
+    @media @mobile {
+        height: 50%;
+        margin-top: 5%;
+    }
+    h1 {
+        margin: 0 0 2% 0;
+        font-size: 8rem;
+        font-weight: bold;
+        text-align: center;
+        color: @font-color;
+        background: @bg-color;
+        border-radius: 5px;
+        @media @mobile {
+            margin: 1% 1% 15% 1%;
+        }
+    }
+    h2 {
+        width: 35%;
+        padding: 2%;
+        font-size: 6rem;
+        color: @font-color;
+    }
+    nav {
+        width: 100%;
+        height: 20vh;
+        display: flex;
+        justify-content: space-evenly;
+        @media @mobile {
+            flex-direction: column;
+            margin: 10% 0;
+        }
+        // border: 3px dashed @font-color;
+    a {
+            width: 20%;
+            padding: 2%;
+            font-size: 3rem;
+            text-align: center;
+            align-self: center;
+            border: 8px solid @font-color;
+            border-radius: 8%;
+            color: @font-color;
+            text-decoration: none;
+            background: @accent-color;
+            @media @mobile {
+                width: 40%;
+                padding: 1%;
+                margin: 1%;
+            }
+        }
+    }
+}
+
+.about-nav {
+    @media @mobile {
+        margin-top: 3%;
+    }
+    a {
+    @media @mobile {
+        width: 40%;
+    }
+    }
+    h2 {
+    @media @mobile {
+        order: 3;
+        width: 98%;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        // border: 2px solid orange;
+    }
+    }
+}
